@@ -1,5 +1,27 @@
+/* Tag selector to select the 'body' element */
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  background: #00b3e6; /* Light blue background for the entire page */
 }
+
+/* Tag selector to select all 'div' elements */
+div {
+  width: 700px;
+  margin: auto; /* Center the div horizontally */
+  font-family: "Helvetica Neue", sans-serif;
+  background: white;
+  padding: 30px; /* Space inside the div */
+}
+
+/* ID selector to select the element with id 'main-header' */
+#main-header {
+  font-size: 22px; /* Make the header text larger */
+}
+
+/* Class selector to select elements with class 'perspective-questions' */
+.perspective-questions {
+  font-size: 18px;      /* Slightly larger than default text */
+  color: blue;          /* Make the text blue */
+  font-style: italic;   /* Italicize the text */
+}
+
+
